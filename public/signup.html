@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <form action="/signup" method="POST">
+      <!-- <label for="name">Name</label> -->
+      <input type="text" id="name" name="name" placeholder="Name" />
+
+      <!-- <label for="password">Create Password</label> -->
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="password"
+      />
+
+      <!-- <label for="passwordConfirmation">Password Confirmation</label> -->
+      <input
+        type="password"
+        id="passwordConfirmation"
+        name="passwordConfirmation"
+        placeholder="password confirmation"
+      />
+
+      <!-- <label for="email">Email</label> -->
+      <input type="email" id="email" name="email" placeholder="Email" />
+
+      <button type="submit">Sign up</button>
+      <p>Already have an account?</p>
+      <a href="/signin">Sign in</a>
+    </form>
+  </body>
+</html>
